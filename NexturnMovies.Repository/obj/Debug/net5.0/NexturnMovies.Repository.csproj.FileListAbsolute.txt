@@ -1,0 +1,15 @@
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\bin\Debug\net5.0\NexturnMovies.Repository.deps.json
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\bin\Debug\net5.0\NexturnMovies.Repository.runtimeconfig.json
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\bin\Debug\net5.0\NexturnMovies.Repository.runtimeconfig.dev.json
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\bin\Debug\net5.0\NexturnMovies.Repository.dll
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\bin\Debug\net5.0\ref\NexturnMovies.Repository.dll
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\bin\Debug\net5.0\NexturnMovies.Repository.pdb
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.csproj.AssemblyReference.cache
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.AssemblyInfoInputs.cache
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.AssemblyInfo.cs
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.csproj.CoreCompileInputs.cache
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.dll
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\obj\Debug\net5.0\ref\NexturnMovies.Repository.dll
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.pdb
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.genruntimeconfig.cache

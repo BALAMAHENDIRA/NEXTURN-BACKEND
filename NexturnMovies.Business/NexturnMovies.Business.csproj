@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NexturnMovies.Models\NexturnMovies.Models.csproj" />
+    <ProjectReference Include="..\NexturnMovies.Repository\NexturnMovies.Repository.csproj" />
+    <ProjectReference Include="..\NexturnMovies.Utilities\NexturnMovies.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

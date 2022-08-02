@@ -1,0 +1,17 @@
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Utilities.deps.json
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Utilities.dll
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\bin\Debug\net5.0\ref\NexturnMovies.Utilities.dll
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Utilities.pdb
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Models.dll
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Repository.dll
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Models.pdb
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Repository.pdb
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.csproj.AssemblyReference.cache
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.AssemblyInfoInputs.cache
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.AssemblyInfo.cs
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.csproj.CopyComplete
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.dll
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\obj\Debug\net5.0\ref\NexturnMovies.Utilities.dll
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.pdb
