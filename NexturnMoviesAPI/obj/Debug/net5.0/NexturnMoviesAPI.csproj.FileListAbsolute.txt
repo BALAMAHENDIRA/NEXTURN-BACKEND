@@ -70,3 +70,5 @@ C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMoviesAPI\obj\Debug\net
 C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMoviesAPI\obj\Debug\net5.0\ref\NexturnMoviesAPI.dll
 C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMoviesAPI\obj\Debug\net5.0\NexturnMoviesAPI.pdb
 C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMoviesAPI\obj\Debug\net5.0\NexturnMoviesAPI.genruntimeconfig.cache
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMoviesAPI\bin\Debug\net5.0\Humanizer.dll
+C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMoviesAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll

@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/thzrEDDBaIFWLVZdM4kcDcpn9uQ/sWfBTTKOxSJpcei1LjYN+UmZ528sQGBk2jTPDmWbCXLeyxDanNHDnS1eQ==",
+  "dgSpecHash": "B/Xk9Zl+hnnRagA0htB3oItDHIJgZHfBbeXZPwLoCKeQxeROtTZKU95j6FrzcTPMD85nqvufN8+gXV6mEzkvwQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\BALAMAHENDIRA\\source\\repos\\NexturnMovies\\NexturnMoviesAPI\\NexturnMoviesAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\autowrapper.core\\4.5.0\\autowrapper.core.4.5.0.nupkg.sha512",
+    "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\microsoft.aspnet.cors\\5.0.0\\microsoft.aspnet.cors.5.0.0.nupkg.sha512",
     "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.0.0\\microsoft.aspnet.webapi.client.5.0.0.nupkg.sha512",
     "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.0.0\\microsoft.aspnet.webapi.core.5.0.0.nupkg.sha512",
@@ -17,6 +18,7 @@
     "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.0\\microsoft.entityframeworkcore.analyzers.5.0.0.nupkg.sha512",
+    "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.0\\microsoft.entityframeworkcore.design.5.0.0.nupkg.sha512",
     "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.0\\microsoft.entityframeworkcore.relational.5.0.0.nupkg.sha512",
     "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.0\\microsoft.entityframeworkcore.sqlserver.5.0.0.nupkg.sha512",
     "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

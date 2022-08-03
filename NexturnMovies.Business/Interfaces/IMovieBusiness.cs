@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NexturnMovies.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace NexturnMovies.Business.Interfaces
 {
    public interface IMovieBusiness 
     {
+        List<MovieVM> GetMovies();
     }
 }

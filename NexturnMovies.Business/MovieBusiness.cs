@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using NexturnMovies.Business.Interfaces;
+using NexturnMovies.Models;
 using NexturnMovies.Repository.Interfaces;
+using NexturnMovies.Repository.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,5 +21,13 @@ namespace NexturnMovies.Business
             _movieRepository = repository;
             _mapper = mapper;
         }
+
+        public List<MovieVM> GetMovies()
+        {
+            List<Movie> list = _movieRepository.GetMovies();
+            return _mapper.Map<List<MovieVM>>(list);
+
+        }
+
     }
 }

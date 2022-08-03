@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -10,6 +11,7 @@ using NexturnMovies.Business;
 using NexturnMovies.Business.Interfaces;
 using NexturnMovies.Repository;
 using NexturnMovies.Repository.Interfaces;
+using NexturnMovies.Repository.Models;
 using NexturnMovies.Utilities;
 using System;
 using System.Collections.Generic;
@@ -37,7 +39,8 @@ namespace NexturnMoviesAPI
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "NexturnMoviesAPI", Version = "v1" });
             });
             string connectionString = Configuration["ConnectionStrings:DefaultConnection"];
-            //services.AddDbContext<NexturnContext>(options => options.UseSqlServer(connectionString));
+            services.AddDbContext<movieBookingContext>(options => options.UseSqlServer(connectionString));
+            services.AddDbContext<myContext>(options => options.UseSqlServer(connectionString));
 
             services.AddSession();
             services.AddTransient<IMovieBusiness, MovieBusiness>();

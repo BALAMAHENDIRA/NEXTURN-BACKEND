@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using NexturnMovies.Models;
+using NexturnMovies.Repository.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +13,8 @@ namespace NexturnMovies.Utilities
     {
         public AutoMappingConfig()
         {
-           /* CreateMap<Trainee, TraineeVM>().ReverseMap();
-            CreateMap<Department, DepartmentVM>().ReverseMap();*/
+          CreateMap<Movie, MovieVM>().ReverseMap();
+            /*  CreateMap<Department, DepartmentVM>().ReverseMap();*/
         }
 
     }
