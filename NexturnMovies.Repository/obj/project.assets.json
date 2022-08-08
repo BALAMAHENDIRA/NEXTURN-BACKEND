@@ -5796,19 +5796,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\": {}
+    "C:\\Users\\Thomson\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BALAMAHENDIRA\\source\\repos\\NexturnMovies\\NexturnMovies.Repository\\NexturnMovies.Repository.csproj",
+      "projectUniqueName": "C:\\Movie Ticket Booking\\NEXTURN-BACKEND\\NexturnMovies.Repository\\NexturnMovies.Repository.csproj",
       "projectName": "NexturnMovies.Repository",
-      "projectPath": "C:\\Users\\BALAMAHENDIRA\\source\\repos\\NexturnMovies\\NexturnMovies.Repository\\NexturnMovies.Repository.csproj",
-      "packagesPath": "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BALAMAHENDIRA\\source\\repos\\NexturnMovies\\NexturnMovies.Repository\\obj\\",
+      "projectPath": "C:\\Movie Ticket Booking\\NEXTURN-BACKEND\\NexturnMovies.Repository\\NexturnMovies.Repository.csproj",
+      "packagesPath": "C:\\Users\\Thomson\\.nuget\\packages\\",
+      "outputPath": "C:\\Movie Ticket Booking\\NEXTURN-BACKEND\\NexturnMovies.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\BALAMAHENDIRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Thomson\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

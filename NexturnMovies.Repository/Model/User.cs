@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace NexturnMovies.Repository.Models
+namespace NexturnMovies.Repository.Model
 {
     public partial class User
     {

@@ -10,3 +10,14 @@ C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Models\obj\Debug
 C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Models\obj\Debug\net5.0\NexturnMovies.Models.dll
 C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Models\obj\Debug\net5.0\ref\NexturnMovies.Models.dll
 C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Models\obj\Debug\net5.0\NexturnMovies.Models.pdb
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Models\bin\Debug\net5.0\NexturnMovies.Models.deps.json
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Models\bin\Debug\net5.0\NexturnMovies.Models.dll
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Models\bin\Debug\net5.0\ref\NexturnMovies.Models.dll
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Models\bin\Debug\net5.0\NexturnMovies.Models.pdb
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Models\obj\Debug\net5.0\NexturnMovies.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Models\obj\Debug\net5.0\NexturnMovies.Models.AssemblyInfoInputs.cache
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Models\obj\Debug\net5.0\NexturnMovies.Models.AssemblyInfo.cs
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Models\obj\Debug\net5.0\NexturnMovies.Models.csproj.CoreCompileInputs.cache
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Models\obj\Debug\net5.0\NexturnMovies.Models.dll
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Models\obj\Debug\net5.0\ref\NexturnMovies.Models.dll
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Models\obj\Debug\net5.0\NexturnMovies.Models.pdb

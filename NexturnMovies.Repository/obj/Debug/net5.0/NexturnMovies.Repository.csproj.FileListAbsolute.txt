@@ -13,3 +13,18 @@ C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\obj\D
 C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.pdb
 C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.genruntimeconfig.cache
 C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.csproj.AssemblyReference.cache
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.AssemblyInfoInputs.cache
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.AssemblyInfo.cs
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.csproj.CoreCompileInputs.cache
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.dll
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\ref\NexturnMovies.Repository.dll
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.pdb
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\bin\Debug\net5.0\NexturnMovies.Repository.deps.json
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\bin\Debug\net5.0\NexturnMovies.Repository.runtimeconfig.json
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\bin\Debug\net5.0\NexturnMovies.Repository.runtimeconfig.dev.json
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\bin\Debug\net5.0\NexturnMovies.Repository.dll
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\bin\Debug\net5.0\ref\NexturnMovies.Repository.dll
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\bin\Debug\net5.0\NexturnMovies.Repository.pdb
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.genruntimeconfig.cache
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.csproj.AssemblyReference.cache
