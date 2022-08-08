@@ -5,13 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NexturnMovies.Repository.Models
+namespace NexturnMovies.Repository.Model
 {
-   public class myContext : movieBookingContext
+  public  class myContext : movieBookingContext
     {
-
         public myContext(DbContextOptions<movieBookingContext> options)
-              : base(options)
+             : base(options)
         {
 
         }

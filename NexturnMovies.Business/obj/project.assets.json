@@ -5797,19 +5797,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\": {}
+    "C:\\Users\\Thomson\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BALAMAHENDIRA\\source\\repos\\NexturnMovies\\NexturnMovies.Business\\NexturnMovies.Business.csproj",
+      "projectUniqueName": "C:\\Movie Ticket Booking\\NEXTURN-BACKEND\\NexturnMovies.Business\\NexturnMovies.Business.csproj",
       "projectName": "NexturnMovies.Business",
-      "projectPath": "C:\\Users\\BALAMAHENDIRA\\source\\repos\\NexturnMovies\\NexturnMovies.Business\\NexturnMovies.Business.csproj",
-      "packagesPath": "C:\\Users\\BALAMAHENDIRA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BALAMAHENDIRA\\source\\repos\\NexturnMovies\\NexturnMovies.Business\\obj\\",
+      "projectPath": "C:\\Movie Ticket Booking\\NEXTURN-BACKEND\\NexturnMovies.Business\\NexturnMovies.Business.csproj",
+      "packagesPath": "C:\\Users\\Thomson\\.nuget\\packages\\",
+      "outputPath": "C:\\Movie Ticket Booking\\NEXTURN-BACKEND\\NexturnMovies.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\BALAMAHENDIRA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Thomson\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5823,14 +5823,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\BALAMAHENDIRA\\source\\repos\\NexturnMovies\\NexturnMovies.Models\\NexturnMovies.Models.csproj": {
-              "projectPath": "C:\\Users\\BALAMAHENDIRA\\source\\repos\\NexturnMovies\\NexturnMovies.Models\\NexturnMovies.Models.csproj"
+            "C:\\Movie Ticket Booking\\NEXTURN-BACKEND\\NexturnMovies.Models\\NexturnMovies.Models.csproj": {
+              "projectPath": "C:\\Movie Ticket Booking\\NEXTURN-BACKEND\\NexturnMovies.Models\\NexturnMovies.Models.csproj"
             },
-            "C:\\Users\\BALAMAHENDIRA\\source\\repos\\NexturnMovies\\NexturnMovies.Repository\\NexturnMovies.Repository.csproj": {
-              "projectPath": "C:\\Users\\BALAMAHENDIRA\\source\\repos\\NexturnMovies\\NexturnMovies.Repository\\NexturnMovies.Repository.csproj"
+            "C:\\Movie Ticket Booking\\NEXTURN-BACKEND\\NexturnMovies.Repository\\NexturnMovies.Repository.csproj": {
+              "projectPath": "C:\\Movie Ticket Booking\\NEXTURN-BACKEND\\NexturnMovies.Repository\\NexturnMovies.Repository.csproj"
             },
-            "C:\\Users\\BALAMAHENDIRA\\source\\repos\\NexturnMovies\\NexturnMovies.Utilities\\NexturnMovies.Utilities.csproj": {
-              "projectPath": "C:\\Users\\BALAMAHENDIRA\\source\\repos\\NexturnMovies\\NexturnMovies.Utilities\\NexturnMovies.Utilities.csproj"
+            "C:\\Movie Ticket Booking\\NEXTURN-BACKEND\\NexturnMovies.Utilities\\NexturnMovies.Utilities.csproj": {
+              "projectPath": "C:\\Movie Ticket Booking\\NEXTURN-BACKEND\\NexturnMovies.Utilities\\NexturnMovies.Utilities.csproj"
             }
           }
         }

@@ -15,3 +15,20 @@ C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\obj\De
 C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.dll
 C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\obj\Debug\net5.0\ref\NexturnMovies.Utilities.dll
 C:\Users\BALAMAHENDIRA\source\repos\NexturnMovies\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.pdb
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Utilities.deps.json
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Utilities.dll
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\bin\Debug\net5.0\ref\NexturnMovies.Utilities.dll
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Utilities.pdb
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Models.dll
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Repository.dll
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Models.pdb
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Repository.pdb
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.csproj.AssemblyReference.cache
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.AssemblyInfoInputs.cache
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.AssemblyInfo.cs
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.csproj.CoreCompileInputs.cache
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.csproj.CopyComplete
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.dll
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\ref\NexturnMovies.Utilities.dll
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.pdb

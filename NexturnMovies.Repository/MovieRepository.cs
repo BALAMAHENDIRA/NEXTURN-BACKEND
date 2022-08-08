@@ -1,5 +1,5 @@
 ﻿using NexturnMovies.Repository.Interfaces;
-using NexturnMovies.Repository.Models;
+using NexturnMovies.Repository.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;

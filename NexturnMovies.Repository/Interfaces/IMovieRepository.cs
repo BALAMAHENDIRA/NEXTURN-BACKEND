@@ -1,4 +1,4 @@
-﻿using NexturnMovies.Repository.Models;
+﻿using NexturnMovies.Repository.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +9,6 @@ namespace NexturnMovies.Repository.Interfaces
 {
     public interface IMovieRepository
     {
-        List<Movie> GetMovies();
+       List<Movie> GetMovies();
     }
 }

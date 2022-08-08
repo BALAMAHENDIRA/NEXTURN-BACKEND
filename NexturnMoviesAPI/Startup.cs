@@ -11,7 +11,7 @@ using NexturnMovies.Business;
 using NexturnMovies.Business.Interfaces;
 using NexturnMovies.Repository;
 using NexturnMovies.Repository.Interfaces;
-using NexturnMovies.Repository.Models;
+using NexturnMovies.Repository.Model;
 using NexturnMovies.Utilities;
 using System;
 using System.Collections.Generic;
