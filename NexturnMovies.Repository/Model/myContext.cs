@@ -9,6 +9,10 @@ namespace NexturnMovies.Repository.Model
 {
   public  class myContext : movieBookingContext
     {
+        public myContext()
+        {
+
+        }
         public myContext(DbContextOptions<movieBookingContext> options)
              : base(options)
         {

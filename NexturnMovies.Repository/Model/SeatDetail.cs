@@ -14,9 +14,8 @@ namespace NexturnMovies.Repository.Model
 
         public int SeatDetailsId { get; set; }
         public string SeatType { get; set; }
-        public int? TheatreId { get; set; }
+        public decimal? Price { get; set; }
 
-        public virtual Theatre Theatre { get; set; }
         public virtual ICollection<Booking> Bookings { get; set; }
     }
 }

@@ -21,3 +21,4 @@ C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Models\obj\Debug\net5.0\Ne
 C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Models\obj\Debug\net5.0\NexturnMovies.Models.dll
 C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Models\obj\Debug\net5.0\ref\NexturnMovies.Models.dll
 C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Models\obj\Debug\net5.0\NexturnMovies.Models.pdb
+C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Models\obj\Debug\net5.0\NexturnMovies.Models.csproj.AssemblyReference.cache

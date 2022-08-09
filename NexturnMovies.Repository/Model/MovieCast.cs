@@ -1,17 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-
-#nullable disable
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace NexturnMovies.Repository.Model
 {
-    public partial class Movie
+    public class MovieCast
     {
-        public Movie()
-        {
-            Shows = new HashSet<Show>();
-        }
-
         public int MovieId { get; set; }
         public int? CastId { get; set; }
         public string Title { get; set; }
@@ -24,7 +20,13 @@ namespace NexturnMovies.Repository.Model
         public string Image2 { get; set; }
         public string Trailer { get; set; }
 
-        public virtual Cast Cast { get; set; }
-        public virtual ICollection<Show> Shows { get; set; }
+   
+        public string Hero { get; set; }
+        public string Heroine { get; set; }
+        public string Comedian { get; set; }
+        public string Villain { get; set; }
+        public string Director { get; set; }
+        public string Producer { get; set; }
+        public string SupportRole { get; set; }
     }
 }
