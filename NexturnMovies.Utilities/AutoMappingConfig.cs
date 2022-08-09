@@ -15,7 +15,23 @@ namespace NexturnMovies.Utilities
         {
             CreateMap<Movie, MovieVM>().ReverseMap();
            // CreateMap<Department, DepartmentVM>().ReverseMap();
+
+            CreateMap<City, CityVM>().ReverseMap();
+
+            CreateMap<Theatre, CityTheaterVM>().ReverseMap();
+
+            CreateMap<Show, ShowTheaterVM>().ReverseMap();
+
+            CreateMap<MovieCast, MovieCastVM>().ReverseMap();
+
+            CreateMap<CityMovie, CityMovieVM>().ReverseMap();
+
+            CreateMap<ShowBooking, ShowBookingVM>().ReverseMap();
+
+            CreateMap<detailsbymovie, detailsbymovieVM>().ReverseMap();
+
         }
+
 
     }
 }

@@ -9,7 +9,6 @@ namespace NexturnMovies.Repository.Model
     {
         public Theatre()
         {
-            SeatDetails = new HashSet<SeatDetail>();
             Shows = new HashSet<Show>();
         }
 
@@ -22,7 +21,6 @@ namespace NexturnMovies.Repository.Model
         public string TImage2 { get; set; }
 
         public virtual City City { get; set; }
-        public virtual ICollection<SeatDetail> SeatDetails { get; set; }
         public virtual ICollection<Show> Shows { get; set; }
     }
 }

@@ -21,7 +21,6 @@ namespace NexturnMovies.Repository.Model
         public virtual DbSet<Cast> Casts { get; set; }
         public virtual DbSet<City> Cities { get; set; }
         public virtual DbSet<Movie> Movies { get; set; }
-        public virtual DbSet<Payment> Payments { get; set; }
         public virtual DbSet<SeatDetail> SeatDetails { get; set; }
         public virtual DbSet<Show> Shows { get; set; }
         public virtual DbSet<Theatre> Theatres { get; set; }
@@ -44,6 +43,8 @@ namespace NexturnMovies.Repository.Model
 
                 entity.Property(e => e.BookingId).HasColumnName("BookingID");
 
+                entity.Property(e => e.Amount).HasColumnType("money");
+
                 entity.Property(e => e.BookedDate).HasColumnType("datetime");
 
                 entity.Property(e => e.SeatDetailsId).HasColumnName("SeatDetailsID");
@@ -55,17 +56,17 @@ namespace NexturnMovies.Repository.Model
                 entity.HasOne(d => d.SeatDetails)
                     .WithMany(p => p.Bookings)
                     .HasForeignKey(d => d.SeatDetailsId)
-                    .HasConstraintName("FK__Booking__SeatDet__37A5467C");
+                    .HasConstraintName("FK__Booking__SeatDet__36B12243");
 
                 entity.HasOne(d => d.Show)
                     .WithMany(p => p.Bookings)
                     .HasForeignKey(d => d.ShowId)
-                    .HasConstraintName("FK__Booking__ShowID__36B12243");
+                    .HasConstraintName("FK__Booking__ShowID__35BCFE0A");
 
                 entity.HasOne(d => d.User)
                     .WithMany(p => p.Bookings)
                     .HasForeignKey(d => d.UserId)
-                    .HasConstraintName("FK__Booking__UserID__35BCFE0A");
+                    .HasConstraintName("FK__Booking__UserID__34C8D9D1");
             });
 
             modelBuilder.Entity<Cast>(entity =>
@@ -136,6 +137,10 @@ namespace NexturnMovies.Repository.Model
                     .HasMaxLength(1000)
                     .IsUnicode(false);
 
+                entity.Property(e => e.Duration)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
                 entity.Property(e => e.Genre)
                     .HasMaxLength(100)
                     .IsUnicode(false);
@@ -170,41 +175,18 @@ namespace NexturnMovies.Repository.Model
                     .HasConstraintName("FK__Movie__CastID__25869641");
             });
 
-            modelBuilder.Entity<Payment>(entity =>
-            {
-                entity.ToTable("Payment");
-
-                entity.Property(e => e.PaymentId).HasColumnName("PaymentID");
-
-                entity.Property(e => e.Amount).HasColumnType("money");
-
-                entity.Property(e => e.BookingId).HasColumnName("BookingID");
-
-                entity.Property(e => e.Timestamp).HasColumnType("datetime");
-
-                entity.HasOne(d => d.Booking)
-                    .WithMany(p => p.Payments)
-                    .HasForeignKey(d => d.BookingId)
-                    .HasConstraintName("FK__Payment__Booking__3A81B327");
-            });
-
             modelBuilder.Entity<SeatDetail>(entity =>
             {
                 entity.HasKey(e => e.SeatDetailsId)
-                    .HasName("PK__SeatDeta__C18AD9E9EA4B5B5C");
+                    .HasName("PK__SeatDeta__C18AD9E9AADBA28D");
 
                 entity.Property(e => e.SeatDetailsId).HasColumnName("SeatDetailsID");
+
+                entity.Property(e => e.Price).HasColumnType("money");
 
                 entity.Property(e => e.SeatType)
                     .HasMaxLength(50)
                     .IsUnicode(false);
-
-                entity.Property(e => e.TheatreId).HasColumnName("TheatreID");
-
-                entity.HasOne(d => d.Theatre)
-                    .WithMany(p => p.SeatDetails)
-                    .HasForeignKey(d => d.TheatreId)
-                    .HasConstraintName("FK__SeatDetai__Theat__2D27B809");
             });
 
             modelBuilder.Entity<Show>(entity =>
@@ -215,19 +197,27 @@ namespace NexturnMovies.Repository.Model
 
                 entity.Property(e => e.Date).HasColumnType("datetime");
 
+                entity.Property(e => e.EndTime)
+                    .HasMaxLength(1)
+                    .IsUnicode(false);
+
                 entity.Property(e => e.MovieId).HasColumnName("MovieID");
+
+                entity.Property(e => e.StartTime)
+                    .HasMaxLength(1)
+                    .IsUnicode(false);
 
                 entity.Property(e => e.TheatreId).HasColumnName("TheatreID");
 
                 entity.HasOne(d => d.Movie)
                     .WithMany(p => p.Shows)
                     .HasForeignKey(d => d.MovieId)
-                    .HasConstraintName("FK__Show__MovieID__30F848ED");
+                    .HasConstraintName("FK__Show__MovieID__300424B4");
 
                 entity.HasOne(d => d.Theatre)
                     .WithMany(p => p.Shows)
                     .HasForeignKey(d => d.TheatreId)
-                    .HasConstraintName("FK__Show__TheatreID__300424B4");
+                    .HasConstraintName("FK__Show__TheatreID__2F10007B");
             });
 
             modelBuilder.Entity<Theatre>(entity =>

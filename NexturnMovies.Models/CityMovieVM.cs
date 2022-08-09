@@ -1,19 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
-#nullable disable
-
-namespace NexturnMovies.Repository.Model
+namespace NexturnMovies.Models
 {
-    public partial class Movie
+    public class CityMovieVM
     {
-        public Movie()
-        {
-            Shows = new HashSet<Show>();
-        }
+        [Key]
+        public int CityId { get; set; }
+        public string Name { get; set; }
+        public string TheatreName { get; set; }
 
-        public int MovieId { get; set; }
-        public int? CastId { get; set; }
+        public int? TheatreId { get; set; }
+        public int? MovieId { get; set; }
+
         public string Title { get; set; }
         public string Description { get; set; }
         public string Duration { get; set; }
@@ -24,7 +27,5 @@ namespace NexturnMovies.Repository.Model
         public string Image2 { get; set; }
         public string Trailer { get; set; }
 
-        public virtual Cast Cast { get; set; }
-        public virtual ICollection<Show> Shows { get; set; }
     }
 }
