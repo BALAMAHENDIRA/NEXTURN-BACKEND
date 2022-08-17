@@ -9,7 +9,7 @@ namespace NexturnMovies.Repository.Model
     {
         public int BookingId { get; set; }
         public decimal? Amount { get; set; }
-        public DateTime? BookedDate { get; set; }
+        public string BookedDate { get; set; }
         public int? SeatNumber { get; set; }
         public int? UserId { get; set; }
         public int? SeatDetailsId { get; set; }

@@ -28,3 +28,18 @@ C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\bin\Debug\net5.
 C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\bin\Debug\net5.0\NexturnMovies.Repository.pdb
 C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.genruntimeconfig.cache
 C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.csproj.AssemblyReference.cache
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Repository\bin\Debug\net5.0\NexturnMovies.Repository.deps.json
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Repository\bin\Debug\net5.0\NexturnMovies.Repository.runtimeconfig.json
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Repository\bin\Debug\net5.0\NexturnMovies.Repository.runtimeconfig.dev.json
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Repository\bin\Debug\net5.0\NexturnMovies.Repository.dll
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Repository\bin\Debug\net5.0\ref\NexturnMovies.Repository.dll
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Repository\bin\Debug\net5.0\NexturnMovies.Repository.pdb
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.AssemblyInfoInputs.cache
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.AssemblyInfo.cs
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.csproj.CoreCompileInputs.cache
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.dll
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\ref\NexturnMovies.Repository.dll
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.pdb
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.genruntimeconfig.cache
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Repository\obj\Debug\net5.0\NexturnMovies.Repository.csproj.AssemblyReference.cache

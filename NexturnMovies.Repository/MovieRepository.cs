@@ -30,16 +30,19 @@ namespace NexturnMovies.Repository
 
         }
 
-        public List<Theatre> GetTheatres(string City)
+        public List<Theatre> GetTheatres(int CityID)
         {
-            var B = (from t in _context.Theatres
-                     join c in _context.Cities on t.CityId equals c.CityId
-                     select new CityTheater
-                     {
-                         TheatreName = t.TheatreName,
-                     }).ToList();
-            B = B.Where(x => x.Name == City).ToList();
-            return _context.Theatres.ToList();
+             
+
+            return _context.Theatres.Where(x => x.CityId == CityID).ToList();
+
+        }
+
+        public List<Theatre> GetTheatresById(int TheatreId)
+        {
+
+
+            return _context.Theatres.Where(x => x.TheatreId == TheatreId).ToList();
 
         }
 
@@ -65,6 +68,7 @@ namespace NexturnMovies.Repository
                      select new detailsbymovie
 
                      {
+                         TheatreId = t.TheatreId,
                          TheatreName = t.TheatreName,
                          StartTime = s.StartTime
 
@@ -81,6 +85,7 @@ namespace NexturnMovies.Repository
                      where m.MovieId == MovieId
                      select new MovieCast
                      {
+                         MovieId = m.MovieId,
                          Title = m.Title,
                          Description = m.Description,
                          Duration = m.Duration,
@@ -110,6 +115,7 @@ namespace NexturnMovies.Repository
                      where c.CityId == CityId
                      select new CityMovie
                      {
+                         MovieId = m.MovieId,
                          Title = m.Title,
                          Description = m.Description,
                          Duration = m.Duration,
@@ -121,10 +127,41 @@ namespace NexturnMovies.Repository
                          Trailer = m.Trailer,
 
                      }).ToList();
-            return (A);
+
+            List<CityMovie> B = A.GroupBy(x => x.MovieId).Select(y => y.First()).ToList();
+            return (B);
         }
 
-        public List<ShowBooking> GetAllBookedSeats(int TheaterId,string StartTime,DateTime Date )
+        public List<CityMovie> GetAllMoviesByTheatre(int theatreId)
+        {
+            var A = (from t in _context.Theatres
+                     join s in _context.Shows on t.TheatreId equals s.TheatreId
+                     
+                     join m in _context.Movies on s.MovieId equals m.MovieId
+                     where t.TheatreId == theatreId
+                     select new CityMovie
+                     {
+                         TheatreName = t.TheatreName,
+                         MovieId = m.MovieId,
+                         Title = m.Title,
+                         Description = m.Description,
+                         Duration = m.Duration,
+                         Language = m.Language,
+                         ReleaseDate = m.ReleaseDate,
+                         Genre = m.Genre,
+                         Image1 = m.Image1,
+                         Image2 = m.Image2,
+                         Trailer = m.Trailer,
+
+                     }).ToList();
+
+            List<CityMovie> B = A.GroupBy(x => x.MovieId).Select(y => y.First()).ToList();
+            return (B);
+        }
+
+
+
+        public List<ShowBooking> GetAllBookedSeats(int TheaterId,string StartTime,string Date )
         {
             var A = (from s in _context.Shows
                      join b in _context.Bookings on s.ShowId equals b.ShowId
@@ -137,11 +174,100 @@ namespace NexturnMovies.Repository
                          Date = s.Date,
                          SeatNumber = b.SeatNumber,
                      }).ToList();
+            
             return (A);
 
         }
 
-         
+        public bool updateBooking (int price, int seatNum, int seatDetail, int theatreId, string date, string start)
+        {
+            List<Show> A = _context.Shows.Where(x => x.TheatreId == theatreId && x.StartTime == start && x.Date == date).ToList();
+            var showid = 0;
+          var currentDate =   DateTime.Now.ToString("yyyy/M/d");
+            foreach (var item in A)
+            {
+                  showid = item.ShowId;
+            };
 
-    }
+            Booking obj = new Booking();
+            obj.ShowId = showid;
+            obj.Amount = price;
+            obj.BookedDate = currentDate;
+            obj.SeatNumber = seatNum;
+            obj.UserId = 1;
+            obj.SeatDetailsId = seatDetail;
+
+            _context.Bookings.Add(obj);
+            _context.SaveChanges();
+
+            return true;
+
+
+        }
+
+
+        public List<ShowTheater> GetStartTimeTheatreByDate(string date)
+        {
+            var A = (from s in _context.Shows
+                     join t in _context.Theatres on s.TheatreId equals t.TheatreId
+                     select new ShowTheater
+                     {
+                         Date = s.Date,
+                         StartTime = s.StartTime,
+                         TheatreName = t.TheatreName,
+
+                     }).ToList();
+            List<ShowTheater> B = A.Where(x => x.Date == date).ToList();
+            return B;
+        }
+
+        public List<detailsbymovie> GetshowDetailsByDate(int MovieID, int CityID, string date)
+        {
+            var e = (from t in _context.Theatres
+                     join s in _context.Shows on t.TheatreId equals s.TheatreId
+                     join c in _context.Cities on t.CityId equals c.CityId
+                     where s.MovieId == MovieID && c.CityId == CityID && s.Date == date
+                     select new detailsbymovie
+
+                     {
+                         TheatreId = t.TheatreId,
+                         TheatreName = t.TheatreName,
+                         StartTime = s.StartTime
+
+
+                     }).ToList();
+
+            return e;
+        }
+
+
+
+        public List<det> GetdetbytheatreID(int TheatreId)
+        {
+            List<det> g = (from t in _context.Theatres
+                     join c in _context.Cities on t.CityId equals c.CityId
+                     where t.TheatreId == TheatreId
+                     select new det
+
+                     {
+                         TheatreId = t.TheatreId,
+                         TheatreName = t.TheatreName,
+                         ScreenName = t.ScreenName,
+                         TotalSeats = t.TotalSeats,
+                         CityId = t.CityId,
+                         TImage1 = t.TImage1,
+                         TImage2 = t.TImage2,
+                         Name = c.Name,
+                         State = c.State,
+                         PinCode = c.PinCode
+
+
+                     }).ToList();
+
+            return g;
+        }
+
+        }
+
+
 }

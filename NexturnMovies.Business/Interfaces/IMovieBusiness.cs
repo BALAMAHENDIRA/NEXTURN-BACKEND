@@ -14,7 +14,9 @@ namespace NexturnMovies.Business.Interfaces
 
         List<CityVM> GetCities();
 
-        List<CityTheaterVM> GetTheatres(string City);
+        List<TheatreVM> GetTheatres(int CityId);
+
+        List<TheatreVM> GetTheatersById(int TheatreId);
 
         List<ShowTheaterVM> GetStartTimeTheater(int MovieId);
 
@@ -22,10 +24,21 @@ namespace NexturnMovies.Business.Interfaces
 
         List<CityMovieVM> GetAllMovies(int CityId);
 
-        List<ShowBookingVM> GetAllBookedSeats(int TheaterId, string StartTime, DateTime Date);
+        List<CityMovieVM> GetAllMoviesByTheatre(int theatreId);
+
+        List<ShowBookingVM> GetAllBookedSeats(int TheaterId, string StartTime, string Date);
 
         List<detailsbymovieVM> GetshowDetails(int MovieID, int CityID);
- 
 
-        }
+        bool updateBooking(int price, int seatNum, int seatDetail, int theatreId, string date, string start);
+
+        List<ShowTheaterVM> GetStartTimeTheatreByDate(string date);
+
+        List<detailsbymovieVM> GetshowDetailsByDate(int MovieID, int CityID, string date);
+
+        List<detVM> GetdetbytheatreID(int TheatreId);
+
+
+
+    }
 }

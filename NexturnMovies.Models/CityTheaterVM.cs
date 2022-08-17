@@ -12,6 +12,9 @@ namespace NexturnMovies.Models
         [Key]
         public int CityId { get; set; }
         public string Name { get; set; }
+
+        public int TheatreId { get; set; }
+
         public string TheatreName { get; set; }
     }
 }

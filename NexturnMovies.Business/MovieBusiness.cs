@@ -35,10 +35,18 @@ namespace NexturnMovies.Business
             return _mapper.Map<List<CityVM>>(list);
         }
 
-        public List<CityTheaterVM> GetTheatres(string City)
+        public List<TheatreVM> GetTheatres(int CityId)
         {
-            List<Theatre> list = _movieRepository.GetTheatres(City);
-            return _mapper.Map<List<CityTheaterVM>>(list);
+            List<Theatre> list = _movieRepository.GetTheatres(CityId);
+            return _mapper.Map<List<TheatreVM>>(list);
+        }
+
+         
+
+        public List<TheatreVM> GetTheatersById(int TheatreId)
+        {
+            List<Theatre> list = _movieRepository.GetTheatresById(TheatreId);
+            return _mapper.Map<List<TheatreVM>>(list);
         }
 
         public List<ShowTheaterVM> GetStartTimeTheater(int MovieId)
@@ -59,7 +67,13 @@ namespace NexturnMovies.Business
             return _mapper.Map<List<CityMovieVM>>(list);
         }
 
-        public List<ShowBookingVM> GetAllBookedSeats(int TheaterId, string StartTime, DateTime Date)
+        public List<CityMovieVM> GetAllMoviesByTheatre(int theatreId)
+        {
+            List<CityMovie> list = _movieRepository.GetAllMoviesByTheatre(theatreId);
+            return _mapper.Map<List<CityMovieVM>>(list);
+        }
+
+        public List<ShowBookingVM> GetAllBookedSeats(int TheaterId, string StartTime, string Date)
         {
             List<ShowBooking> list = _movieRepository.GetAllBookedSeats(TheaterId,StartTime,Date);
             return _mapper.Map<List<ShowBookingVM>>(list);
@@ -69,6 +83,33 @@ namespace NexturnMovies.Business
         {
             List<detailsbymovie> list = _movieRepository.GetshowDetails(MovieID, CityID);
             return _mapper.Map<List<detailsbymovieVM>>(list);
+
+        }
+
+
+        public bool updateBooking(int price, int seatNum, int seatDetail, int theatreId, string date, string start)
+        {
+            var list = _movieRepository.updateBooking(price, seatNum, seatDetail, theatreId, date, start);
+            return list;
+        }
+
+        public List<ShowTheaterVM> GetStartTimeTheatreByDate(string date)
+        {
+            List<ShowTheater> list = _movieRepository.GetStartTimeTheatreByDate(date);
+            return _mapper.Map<List<ShowTheaterVM>>(list);
+        }
+
+        public List<detailsbymovieVM> GetshowDetailsByDate(int MovieID, int CityID, string date)
+        {
+            List<detailsbymovie> list = _movieRepository.GetshowDetailsByDate(MovieID, CityID, date);
+            return _mapper.Map<List<detailsbymovieVM>>(list);
+
+        }
+
+        public List<detVM> GetdetbytheatreID(int TheatreId)
+        {
+            List<det> list = _movieRepository.GetdetbytheatreID(TheatreId);
+            return _mapper.Map<List<detVM>>(list);
 
         }
 

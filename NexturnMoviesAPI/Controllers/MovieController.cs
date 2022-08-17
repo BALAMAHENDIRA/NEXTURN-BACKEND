@@ -42,11 +42,21 @@ namespace NexturnMoviesAPI.Controllers
 
         [HttpGet]
         [Route("GetTheaters")]
-        public IActionResult GetTheaters(string City)
+        public IActionResult GetTheaters(int CityId)
         {
-            List<CityTheaterVM> B = _movieBusiness.GetTheatres(City);
+            List<TheatreVM> B = _movieBusiness.GetTheatres(CityId);
             return Ok(B);
         }
+
+
+        [HttpGet]
+        [Route("GetTheatersById")]
+        public IActionResult GetTheatersById(int TheatreId)
+        {
+            List<TheatreVM> B = _movieBusiness.GetTheatersById(TheatreId);
+            return Ok(B);
+        }
+
 
         [HttpGet]
         [Route("GetStartTimeTheater")]
@@ -72,9 +82,18 @@ namespace NexturnMoviesAPI.Controllers
             return Ok(B);
         }
 
+
+        [HttpGet]
+        [Route("GetAllMoviesByTheatre")]
+        public IActionResult GetAllMoviesByTheatre(int theatreId)
+        {
+            List<CityMovieVM> B = _movieBusiness.GetAllMoviesByTheatre(theatreId);
+            return Ok(B);
+        }
+
         [HttpGet]
         [Route("GetAllBookedSeats")]
-        public IActionResult GetAllBookedSeats(int TheaterId, string StartTime, DateTime Date)
+        public IActionResult GetAllBookedSeats(int TheaterId, string StartTime, string Date)
         {
             List<ShowBookingVM> B = _movieBusiness.GetAllBookedSeats(TheaterId,StartTime,Date);
             return Ok(B);
@@ -86,6 +105,41 @@ namespace NexturnMoviesAPI.Controllers
         {
             List<detailsbymovieVM> tune = _movieBusiness.GetshowDetails(MovieID, CityID);
             return Ok(tune);
+        }
+
+        [HttpGet]
+        [Route("PostDetails")]
+
+        public IActionResult updateBooking(int price, int seatNum, int seatDetail, int theatreId, string date, string start)
+        {
+            var list = _movieBusiness.updateBooking(price, seatNum, seatDetail, theatreId, date, start);
+            return Ok(list);
+        }
+
+
+        [HttpGet]
+        [Route("GetStartTimeTheatreByDate")]
+        public IActionResult GetStartTimeTheatreByDate(string date)
+        {
+
+            List<ShowTheaterVM> B = _movieBusiness.GetStartTimeTheatreByDate(date);
+            return Ok(B);
+        }
+
+        [HttpGet]
+        [Route("GetshowDetailsByDate")]
+        public IActionResult GetshowDetailsByDate(int MovieID, int CityID, string date)
+        {
+            List<detailsbymovieVM> tune = _movieBusiness.GetshowDetailsByDate(MovieID, CityID, date);
+            return Ok(tune);
+        }
+
+        [HttpGet]
+        [Route("GetdetbytheatreID")]
+        public IActionResult GetdetbytheatreID(int TheatreId)
+        {
+            List<detVM> rod = _movieBusiness.GetdetbytheatreID(TheatreId);
+            return Ok(rod);
         }
     }
 }

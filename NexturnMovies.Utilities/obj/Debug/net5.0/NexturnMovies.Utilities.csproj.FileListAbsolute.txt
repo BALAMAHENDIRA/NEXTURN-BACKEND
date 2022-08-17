@@ -32,3 +32,20 @@ C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0
 C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.dll
 C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\ref\NexturnMovies.Utilities.dll
 C:\Movie Ticket Booking\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.pdb
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Utilities.deps.json
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Utilities.dll
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Utilities\bin\Debug\net5.0\ref\NexturnMovies.Utilities.dll
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Utilities.pdb
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Models.dll
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Repository.dll
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Models.pdb
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Utilities\bin\Debug\net5.0\NexturnMovies.Repository.pdb
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.csproj.AssemblyReference.cache
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.AssemblyInfoInputs.cache
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.AssemblyInfo.cs
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.csproj.CoreCompileInputs.cache
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.csproj.CopyComplete
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.dll
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\ref\NexturnMovies.Utilities.dll
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Utilities\obj\Debug\net5.0\NexturnMovies.Utilities.pdb

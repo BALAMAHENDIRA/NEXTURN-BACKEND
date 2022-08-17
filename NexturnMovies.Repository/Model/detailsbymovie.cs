@@ -8,6 +8,8 @@ namespace NexturnMovies.Repository.Model
 {
     public class detailsbymovie
     {
+        public int TheatreId { get; set; }
+
         public string TheatreName { get; set; }
 
 

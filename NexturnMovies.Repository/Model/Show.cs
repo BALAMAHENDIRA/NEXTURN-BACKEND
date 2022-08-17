@@ -13,7 +13,7 @@ namespace NexturnMovies.Repository.Model
         }
 
         public int ShowId { get; set; }
-        public DateTime? Date { get; set; }
+        public string Date { get; set; }
         public string StartTime { get; set; }
         public string EndTime { get; set; }
         public int? TheatreId { get; set; }

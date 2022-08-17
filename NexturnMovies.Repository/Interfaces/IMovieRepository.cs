@@ -13,17 +13,28 @@ namespace NexturnMovies.Repository.Interfaces
 
         List<City> GetCities();
 
-        List<Theatre> GetTheatres(string City);
+        List<Theatre> GetTheatres(int CityId);
+
+        List<Theatre> GetTheatresById(int TheatreId);
 
         List<Show> GetStartTimeTheater(int MovieId);
 
         List<MovieCast> GetMovieCasts(int MovieId);
 
         List<CityMovie> GetAllMovies(int CityId);
+        List<CityMovie> GetAllMoviesByTheatre(int theatreId);
 
-        List<ShowBooking> GetAllBookedSeats(int TheaterId, string StartTime, DateTime Date);
+        List<ShowBooking> GetAllBookedSeats(int TheaterId, string StartTime, string Date);
 
         List<detailsbymovie> GetshowDetails(int MovieID, int CityID);
+
+        bool updateBooking(int price, int seatNum, int seatDetail, int theatreId, string date, string start);
+
+        List<ShowTheater> GetStartTimeTheatreByDate(string date);
+
+        List<detailsbymovie> GetshowDetailsByDate(int MovieID, int CityID, string date);
+
+        List<det> GetdetbytheatreID(int TheatreId);
     }
 
 }

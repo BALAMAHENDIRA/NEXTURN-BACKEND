@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HXJAmFQkE/PuNo0U7+HJt6kzz3nesV16jGW9LgaJE4DYS/ord+HtoxvjYhxBwGNAUkXbH5f+Qf9R2GCx38GdNA==",
+  "dgSpecHash": "j2Wx2sE2baLqRQigrM2bpBisUnQeVoQwn7Z0nmG7EFqVgR0y1X8JnZ3IEcKSPLJ7P49eRQj94weIb1lgBzJszw==",
   "success": true,
-  "projectFilePath": "C:\\Movie Ticket Booking\\NEXTURN-BACKEND\\NexturnMovies.Models\\NexturnMovies.Models.csproj",
+  "projectFilePath": "C:\\Nexturn-Backend\\NEXTURN-THIOMSON\\NEXTURN-BACKEND\\NexturnMovies.Models\\NexturnMovies.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

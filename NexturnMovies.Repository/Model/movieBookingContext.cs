@@ -31,7 +31,7 @@ namespace NexturnMovies.Repository.Model
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Data Source =(localdb)\\MSSQLLocalDB;Initial Catalog=movieBooking;Integrated Security=true");
+                optionsBuilder.UseSqlServer("Data Source =(localdb)\\MSSQLLocalDB;Initial Catalog=movieBooking; Integrated Security=true");
             }
         }
 
@@ -45,7 +45,9 @@ namespace NexturnMovies.Repository.Model
 
                 entity.Property(e => e.Amount).HasColumnType("money");
 
-                entity.Property(e => e.BookedDate).HasColumnType("datetime");
+                entity.Property(e => e.BookedDate)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
 
                 entity.Property(e => e.SeatDetailsId).HasColumnName("SeatDetailsID");
 
@@ -159,7 +161,9 @@ namespace NexturnMovies.Repository.Model
                     .HasMaxLength(100)
                     .IsUnicode(false);
 
-                entity.Property(e => e.ReleaseDate).HasColumnType("datetime");
+                entity.Property(e => e.ReleaseDate)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
 
                 entity.Property(e => e.Title)
                     .HasMaxLength(100)
@@ -178,7 +182,7 @@ namespace NexturnMovies.Repository.Model
             modelBuilder.Entity<SeatDetail>(entity =>
             {
                 entity.HasKey(e => e.SeatDetailsId)
-                    .HasName("PK__SeatDeta__C18AD9E9AADBA28D");
+                    .HasName("PK__SeatDeta__C18AD9E9CD6F2B1B");
 
                 entity.Property(e => e.SeatDetailsId).HasColumnName("SeatDetailsID");
 
@@ -195,16 +199,18 @@ namespace NexturnMovies.Repository.Model
 
                 entity.Property(e => e.ShowId).HasColumnName("ShowID");
 
-                entity.Property(e => e.Date).HasColumnType("datetime");
+                entity.Property(e => e.Date)
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
 
                 entity.Property(e => e.EndTime)
-                    .HasMaxLength(1)
+                    .HasMaxLength(50)
                     .IsUnicode(false);
 
                 entity.Property(e => e.MovieId).HasColumnName("MovieID");
 
                 entity.Property(e => e.StartTime)
-                    .HasMaxLength(1)
+                    .HasMaxLength(50)
                     .IsUnicode(false);
 
                 entity.Property(e => e.TheatreId).HasColumnName("TheatreID");

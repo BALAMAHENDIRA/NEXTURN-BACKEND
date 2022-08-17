@@ -8,7 +8,7 @@ namespace NexturnMovies.Repository.Model
 {
     public class ShowTheater
     {
-        public DateTime? Date { get; set; }
+        public string Date { get; set; }
      
         public string StartTime { get; set; }
         public int? TheatreId { get; set; }

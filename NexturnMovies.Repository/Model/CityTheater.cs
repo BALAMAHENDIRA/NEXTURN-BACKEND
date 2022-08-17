@@ -11,7 +11,8 @@ namespace NexturnMovies.Repository.Model
         
         public int CityId { get; set; }
         public string Name { get; set; }
-       
+
+        public int TheatreId { get; set; }
 
         public string TheatreName { get; set; }
       

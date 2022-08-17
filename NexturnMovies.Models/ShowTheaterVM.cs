@@ -10,7 +10,7 @@ namespace NexturnMovies.Models
     public class ShowTheaterVM
     {
         [Key]
-        public DateTime? Date { get; set; }
+        public string Date { get; set; }
         public string StartTime { get; set; }
         public int? TheatreId { get; set; }
         public int? MovieId { get; set; }

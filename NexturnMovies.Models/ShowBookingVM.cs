@@ -11,7 +11,7 @@ namespace NexturnMovies.Models
     {
         [Key]
         public int ShowId { get; set; }
-        public DateTime? Date { get; set; }
+        public string Date { get; set; }
         public string StartTime { get; set; }
 
         public int? TheatreId { get; set; }
