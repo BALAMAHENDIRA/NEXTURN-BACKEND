@@ -39,7 +39,7 @@ namespace NexturnMoviesAPI
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "NexturnMoviesAPI", Version = "v1" });
             });
             string connectionString = Configuration["ConnectionStrings:DefaultConnection"];
-            services.AddDbContext<movieBookingContext>(options => options.UseSqlServer(connectionString));
+            services.AddDbContext<movieBooking2Context>(options => options.UseSqlServer(connectionString));
             services.AddDbContext<myContext>(options => options.UseSqlServer(connectionString));
 
             services.AddSession();

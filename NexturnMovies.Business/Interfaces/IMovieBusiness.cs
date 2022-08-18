@@ -38,6 +38,7 @@ namespace NexturnMovies.Business.Interfaces
 
         List<detVM> GetdetbytheatreID(int TheatreId);
 
+        bool updatesnacks(int theatreId, string date, string start, int amount);
 
 
     }

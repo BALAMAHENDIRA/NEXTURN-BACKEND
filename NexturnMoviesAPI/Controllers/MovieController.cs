@@ -141,5 +141,14 @@ namespace NexturnMoviesAPI.Controllers
             List<detVM> rod = _movieBusiness.GetdetbytheatreID(TheatreId);
             return Ok(rod);
         }
+
+        [HttpGet]
+        [Route("PostSnacks")]
+
+        public IActionResult updatesnacks(int theatreId, string date, string start, int amount)
+        {
+            bool list = _movieBusiness.updatesnacks(theatreId, date, start, amount);
+            return Ok(list);
+        }
     }
 }

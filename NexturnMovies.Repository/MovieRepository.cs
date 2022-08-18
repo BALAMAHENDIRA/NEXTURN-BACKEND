@@ -32,9 +32,12 @@ namespace NexturnMovies.Repository
 
         public List<Theatre> GetTheatres(int CityID)
         {
-             
+            List<Theatre> a =  _context.Theatres.Where(x => x.CityId == CityID).ToList();
 
-            return _context.Theatres.Where(x => x.CityId == CityID).ToList();
+            List<Theatre> B = a.GroupBy(x => x.TheatreName).Select(y => y.First()).ToList();
+            return B;
+
+            //return _context.Theatres.Where(x => x.CityId == CityID).ToList();
 
         }
 
@@ -267,7 +270,28 @@ namespace NexturnMovies.Repository
             return g;
         }
 
+
+        public bool updatesnacks(int theatreId, string date, string start, int amount)
+        {
+
+
+            Show A = _context.Shows.Where(x => x.TheatreId == theatreId && x.StartTime == start && x.Date == date).FirstOrDefault();
+
+
+            Food food = new Food();
+            food.Amount = amount;
+            food.ShowId = A.ShowId;
+            food.UserId = 1;
+            _context.Foods.Add(food);
+            _context.SaveChanges();
+
+
+            return true;
+
+
         }
+
+    }
 
 
 }

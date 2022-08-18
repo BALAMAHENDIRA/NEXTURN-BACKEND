@@ -33,3 +33,4 @@ C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Models\obj\Deb
 C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Models\obj\Debug\net5.0\NexturnMovies.Models.dll
 C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Models\obj\Debug\net5.0\ref\NexturnMovies.Models.dll
 C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Models\obj\Debug\net5.0\NexturnMovies.Models.pdb
+C:\Nexturn-Backend\NEXTURN-THIOMSON\NEXTURN-BACKEND\NexturnMovies.Models\obj\Debug\net5.0\NexturnMovies.Models.csproj.AssemblyReference.cache

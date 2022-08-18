@@ -9,7 +9,7 @@ namespace NexturnMovies.Repository.Interfaces
 {
     public interface IMovieRepository
     {
-       List<Movie> GetMovies();
+        List<Movie> GetMovies();
 
         List<City> GetCities();
 
@@ -35,6 +35,7 @@ namespace NexturnMovies.Repository.Interfaces
         List<detailsbymovie> GetshowDetailsByDate(int MovieID, int CityID, string date);
 
         List<det> GetdetbytheatreID(int TheatreId);
-    }
 
+        bool updatesnacks(int theatreId, string date, string start, int amount);
+    }
 }

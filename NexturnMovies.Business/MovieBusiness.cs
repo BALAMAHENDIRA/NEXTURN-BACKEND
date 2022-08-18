@@ -113,6 +113,12 @@ namespace NexturnMovies.Business
 
         }
 
+        public bool updatesnacks(int theatreId, string date, string start, int amount)
+        {
+            var list = _movieRepository.updatesnacks(theatreId, date, start, amount);
+            return list;
+        }
+
     }
 
 }

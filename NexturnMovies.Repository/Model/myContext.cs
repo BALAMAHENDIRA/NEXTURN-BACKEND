@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace NexturnMovies.Repository.Model
 {
-  public  class myContext : movieBookingContext
+  public  class myContext : movieBooking2Context
     {
         public myContext()
         {
 
         }
-        public myContext(DbContextOptions<movieBookingContext> options)
+        public myContext(DbContextOptions<movieBooking2Context> options)
              : base(options)
         {
 

@@ -10,6 +10,7 @@ namespace NexturnMovies.Repository.Model
         public Show()
         {
             Bookings = new HashSet<Booking>();
+            Foods = new HashSet<Food>();
         }
 
         public int ShowId { get; set; }
@@ -22,5 +23,6 @@ namespace NexturnMovies.Repository.Model
         public virtual Movie Movie { get; set; }
         public virtual Theatre Theatre { get; set; }
         public virtual ICollection<Booking> Bookings { get; set; }
+        public virtual ICollection<Food> Foods { get; set; }
     }
 }

@@ -10,6 +10,7 @@ namespace NexturnMovies.Repository.Model
         public User()
         {
             Bookings = new HashSet<Booking>();
+            Foods = new HashSet<Food>();
         }
 
         public int UserId { get; set; }
@@ -19,5 +20,6 @@ namespace NexturnMovies.Repository.Model
         public string Phone { get; set; }
 
         public virtual ICollection<Booking> Bookings { get; set; }
+        public virtual ICollection<Food> Foods { get; set; }
     }
 }
